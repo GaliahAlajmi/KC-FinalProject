@@ -10,6 +10,7 @@
 		EE23501928BE7169003ED01D /* plannermodal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23501828BE7169003ED01D /* plannermodal.swift */; };
 		EE23501B28BE734E003ED01D /* planner info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23501A28BE734E003ED01D /* planner info.swift */; };
 		EE23501D28BE7513003ED01D /* row view.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23501C28BE7513003ED01D /* row view.swift */; };
+		EE2F988828C0E47800EB6FEA /* loginscreen .swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F988728C0E47800EB6FEA /* loginscreen .swift */; };
 		EE30339828BE694C00AC65DB /* the_daily_planner_by_GApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30339728BE694C00AC65DB /* the_daily_planner_by_GApp.swift */; };
 		EE30339A28BE694C00AC65DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30339928BE694C00AC65DB /* ContentView.swift */; };
 		EE30339C28BE694D00AC65DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE30339B28BE694D00AC65DB /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		EE23501828BE7169003ED01D /* plannermodal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plannermodal.swift; sourceTree = "<group>"; };
 		EE23501A28BE734E003ED01D /* planner info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "planner info.swift"; sourceTree = "<group>"; };
 		EE23501C28BE7513003ED01D /* row view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "row view.swift"; sourceTree = "<group>"; };
+		EE2F988728C0E47800EB6FEA /* loginscreen .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "loginscreen .swift"; sourceTree = "<group>"; };
 		EE30339428BE694C00AC65DB /* the daily planner by G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the daily planner by G.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE30339728BE694C00AC65DB /* the_daily_planner_by_GApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_daily_planner_by_GApp.swift; sourceTree = "<group>"; };
 		EE30339928BE694C00AC65DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				EE30339728BE694C00AC65DB /* the_daily_planner_by_GApp.swift */,
 				EE30339928BE694C00AC65DB /* ContentView.swift */,
+				EE2F988728C0E47800EB6FEA /* loginscreen .swift */,
 				EE23501828BE7169003ED01D /* plannermodal.swift */,
 				EE23501A28BE734E003ED01D /* planner info.swift */,
 				EE23501C28BE7513003ED01D /* row view.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2F988828C0E47800EB6FEA /* loginscreen .swift in Sources */,
 				EE30339A28BE694C00AC65DB /* ContentView.swift in Sources */,
 				EE23501D28BE7513003ED01D /* row view.swift in Sources */,
 				EE23501B28BE734E003ED01D /* planner info.swift in Sources */,

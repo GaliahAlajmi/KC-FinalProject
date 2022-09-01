@@ -9,6 +9,8 @@ import SwiftUI
 
 struct planner_info: View {
     var ourplanner : plannermodal
+    let plannerItems = ["assignment tracker","exam tracker","monthly plan","monthly planner 2","project planner","reading list","school supply list","study guide","to do 1","to do 2","to do 3","to do 4","to do flower de"]
+
     var body: some View {
         ZStack{
             Color.black.opacity(0.3)
@@ -27,7 +29,7 @@ struct planner_info: View {
                     .foregroundColor(.white)
                 ScrollView(.horizontal){
                     HStack{
-                        ForEach(ourplanner.plannername, id:\.self){
+                        ForEach(plannerItems, id:\.self){
                             planner in
                             VStack{
                                 Text(planner)
