@@ -31,11 +31,12 @@ struct log_in_screen_: View {
                         .frame(width: 300, height: 300)
                          
                        
-                    Text("login")
-                        .font(.largeTitle)
-                        .bold()
+                   Text("login")
+                       .font(.largeTitle)
+                       .foregroundColor(Color.black)
+                       .bold()
                         .padding()
-                    
+                  
                         TextField("Username",text: $Username)
                         .padding()
                         .frame(width: 300, height: 50)
@@ -52,8 +53,10 @@ struct log_in_screen_: View {
                  
                     Button("login"){
                         authenticateUser(Username: Username, Password: Password)
-                         
+                      
+                           
                     }
+                   
                     .foregroundColor(.white)
                     .frame(width: 300, height: 50)
                     .background(Color.black)
@@ -63,8 +66,7 @@ struct log_in_screen_: View {
                         EmptyView()
                         
                     }   .padding()
-                    
-                    
+                 
                 }
             }
             
