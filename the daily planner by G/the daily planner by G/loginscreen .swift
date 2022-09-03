@@ -28,8 +28,8 @@ struct log_in_screen_: View {
                     Image("logo new")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 300, height: 300)
-                         
+                        .frame(width: 400, height: 300)
+                     
                        
                    Text("login")
                        .font(.largeTitle)

@@ -7,17 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6952B897-1BBF-4ECE-94F5-B1CD8D934328"
+            uuid = "353DAF13-2C03-4F4F-A7E1-C984F2836900"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "the daily planner by G/planner info.swift"
+            filePath = "the daily planner by G/views/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ContentView"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
