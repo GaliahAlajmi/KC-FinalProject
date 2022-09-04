@@ -11,7 +11,8 @@ import SwiftUI
 struct the_daily_planner_by_GApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            log_in_screen_()
         }
     }
 }

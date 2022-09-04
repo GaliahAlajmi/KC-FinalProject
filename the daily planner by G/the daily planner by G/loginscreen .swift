@@ -52,7 +52,7 @@ struct log_in_screen_: View {
                     .border(.red,width: CGFloat(wrongPassword))
                  
                     Button("login"){
-                        authenticateUser(Username: Username, Password: Password)
+                        (Username: Username, Password: Password)
                       
                            
                     }
@@ -62,7 +62,7 @@ struct log_in_screen_: View {
                     .background(Color.black)
                     .cornerRadius(10)
                     
-                    NavigationLink(destination: Text("you are logged in @\(Username)"),isActive: $showingloginscreen){
+                    NavigationLink(destination: ContentView(),isActive: $showingloginscreen){
                         EmptyView()
                         
                     }   .padding()
@@ -73,19 +73,7 @@ struct log_in_screen_: View {
         }
         .navigationBarHidden(true)
     }
-func  authenticateUser(Username:String,Password: String){
-           if Username.lowercased() == "" {
-               wrongUsername = 0
-               if Password.lowercased() == "abc123"{
-                   wrongPassword = 0
-                   showingloginscreen = true
-               }else{
-                   wrongPassword = 2
-               }
-           }else{
-               wrongUsername = 2
-           }
-    }
+
 }
 
 struct log_in_screen__Previews: PreviewProvider {

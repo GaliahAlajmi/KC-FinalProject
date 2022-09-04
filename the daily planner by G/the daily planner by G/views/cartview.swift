@@ -26,8 +26,7 @@ struct cartview: View {
                     
                 }
                 .padding()
-                paymentbutton_(action: {})
-                    .padding()
+              
             }else{
                 Text("Your cart is empty")
             }

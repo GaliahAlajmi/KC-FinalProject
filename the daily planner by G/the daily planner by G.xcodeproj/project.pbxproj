@@ -13,7 +13,6 @@
 		EE22A80528C3FEF3005584F3 /* cartview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22A80428C3FEF3005584F3 /* cartview.swift */; };
 		EE22A80728C3FFEC005584F3 /* cartmanger .swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22A80628C3FFEC005584F3 /* cartmanger .swift */; };
 		EE22A80928C405D3005584F3 /* productrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22A80828C405D3005584F3 /* productrow.swift */; };
-		EE22A80B28C40CCD005584F3 /* paymentbutton .swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22A80A28C40CCD005584F3 /* paymentbutton .swift */; };
 		EE2F988828C0E47800EB6FEA /* loginscreen .swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F988728C0E47800EB6FEA /* loginscreen .swift */; };
 		EE30339828BE694C00AC65DB /* the_daily_planner_by_GApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30339728BE694C00AC65DB /* the_daily_planner_by_GApp.swift */; };
 		EE30339A28BE694C00AC65DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30339928BE694C00AC65DB /* ContentView.swift */; };
@@ -28,7 +27,6 @@
 		EE22A80428C3FEF3005584F3 /* cartview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartview.swift; sourceTree = "<group>"; };
 		EE22A80628C3FFEC005584F3 /* cartmanger .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cartmanger .swift"; sourceTree = "<group>"; };
 		EE22A80828C405D3005584F3 /* productrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productrow.swift; sourceTree = "<group>"; };
-		EE22A80A28C40CCD005584F3 /* paymentbutton .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "paymentbutton .swift"; sourceTree = "<group>"; };
 		EE2F988728C0E47800EB6FEA /* loginscreen .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "loginscreen .swift"; sourceTree = "<group>"; };
 		EE30339428BE694C00AC65DB /* the daily planner by G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the daily planner by G.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE30339728BE694C00AC65DB /* the_daily_planner_by_GApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_daily_planner_by_GApp.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			children = (
 				EE22A7FD28C3F3AE005584F3 /* product card.swift */,
 				EE22A80128C3FB8E005584F3 /* cartbutton .swift */,
-				EE22A80A28C40CCD005584F3 /* paymentbutton .swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -192,7 +189,6 @@
 				EE22A80928C405D3005584F3 /* productrow.swift in Sources */,
 				EE22A80528C3FEF3005584F3 /* cartview.swift in Sources */,
 				EE22A7FE28C3F3AE005584F3 /* product card.swift in Sources */,
-				EE22A80B28C40CCD005584F3 /* paymentbutton .swift in Sources */,
 				EE30339A28BE694C00AC65DB /* ContentView.swift in Sources */,
 				EE30339828BE694C00AC65DB /* the_daily_planner_by_GApp.swift in Sources */,
 			);
