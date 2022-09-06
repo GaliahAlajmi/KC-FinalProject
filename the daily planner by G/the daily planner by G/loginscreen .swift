@@ -50,22 +50,29 @@ struct log_in_screen_: View {
                     .background(Color.black.opacity(0.05))
                     .cornerRadius(10)
                     .border(.red,width: CGFloat(wrongPassword))
-                 
-                    Button("login"){
-                        (Username: Username, Password: Password)
+                   NavigationLink(destination: ContentView(),isActive: $showingloginscreen){
+                       Text("log in ")
+                           .foregroundColor(.white)
+                           .frame(width: 300, height: 50)
+                           .background(Color.black)
+                           .cornerRadius(10)
+                       
+                   }   .padding()
+//                    Button("login"){
+//                        (Username: Username, Password: Password)
                       
                            
-                    }
-                   
-                    .foregroundColor(.white)
-                    .frame(width: 300, height: 50)
-                    .background(Color.black)
-                    .cornerRadius(10)
-                    
-                    NavigationLink(destination: ContentView(),isActive: $showingloginscreen){
-                        EmptyView()
-                        
-                    }   .padding()
+//                    }
+//                   
+//                    .foregroundColor(.white)
+//                    .frame(width: 300, height: 50)
+//                    .background(Color.black)
+//                    .cornerRadius(10)
+//                    
+//                    NavigationLink(destination: ContentView(),isActive: $showingloginscreen){
+//                        EmptyView()
+//                        
+//                    }   .padding()
                  
                 }
             }

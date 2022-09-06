@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-
-   
+    @State var prodectnumber = 0
+  
     var columns = [GridItem(.adaptive(minimum:160),spacing: 20)]
     
     var body: some View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: columns,spacing: 20) {
-                    ForEach(productlist, id: \.id){ product in product_card(product: product)
+                    ForEach(productlist, id: \.id){ product in product_card(prodectnumber: $prodectnumber, product: product)
                          
                     }
                 }

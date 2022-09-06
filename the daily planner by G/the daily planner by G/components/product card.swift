@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct product_card: View {
-   
+    @Binding var prodectnumber : Int
+    
     var product : product
     var body: some View {
         ZStack (alignment:.topTrailing){
@@ -49,9 +50,9 @@ struct product_card: View {
     }
 }
 
-struct product_card_Previews: PreviewProvider {
-    static var previews: some View {
-        product_card(product: productlist[0])
-            .environmentObject(cartmanger())
-    }
-}
+//struct product_card_Previews: PreviewProvider {
+//    static var previews: some View {
+////        product_card(product: productlist[0])
+//            .environmentObject(cartmanger())
+//    }
+//}
