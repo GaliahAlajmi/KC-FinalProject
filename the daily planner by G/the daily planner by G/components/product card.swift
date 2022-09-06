@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct product_card: View {
-    @Binding var prodectnumber : Int
-    
+   
+    @Binding var proooductNumber : Int
+    @Binding var prodectPrice : Int
     var product : product
     var body: some View {
         ZStack (alignment:.topTrailing){
@@ -35,16 +36,31 @@ struct product_card: View {
             .frame(width: 100, height: 250)
         .shadow(radius: 3)
             
-            Button{
-               print("Add to cart")
-            }label: {
+            
+            NavigationLink(destination: cartview(produuctNumber: $proooductNumber, prodectPrice: $prodectPrice)) {
                 Image(systemName: "plus")
                     .padding(10)
                     .foregroundColor(.white)
                     .background(.black)
                     .cornerRadius(50)
                     .padding()
+                    .onTapGesture {
+                        print("Add to cart")
+                         proooductNumber = proooductNumber + 1
+                        prodectPrice = prodectPrice + product.price
+                    }
             }
+//            Button{
+//               print("Add to cart")
+//                proooductNumber = proooductNumber + 1
+//            }label: {
+//                Image(systemName: "plus")
+//                    .padding(10)
+//                    .foregroundColor(.white)
+//                    .background(.black)
+//                    .cornerRadius(50)
+//                    .padding()
+//            }
         }
         
     }

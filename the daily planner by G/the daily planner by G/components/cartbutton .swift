@@ -15,7 +15,7 @@ struct cartbutton_: View {
             Image(systemName: "cart")
                 .padding(.top,5)
             
-            if numberofproducts > 0 {
+//            if numberofproducts > 0 {
                 Text("\(numberofproducts)")
                     .font(.caption2).bold()
                     .foregroundColor(.white)
@@ -23,7 +23,7 @@ struct cartbutton_: View {
                     .background(Color(hue: 1.0, saturation: 0.859, brightness: 0.932, opacity: 0.886))
                     .cornerRadius(50)
                 
-            }
+//            }
         }
     }
 }
