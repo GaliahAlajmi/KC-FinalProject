@@ -30,7 +30,7 @@ struct cartview: View {
                     
                 }
                 .padding()
-              
+               
 //            }else{
 //                Text("Your cart is empty")
 //            }
@@ -38,6 +38,8 @@ struct cartview: View {
         }
         .navigationTitle(Text("My cart"))
         .padding(.top)
+        .background(Image("background color"))
+        .scaledToFill()
     }
 }
 
